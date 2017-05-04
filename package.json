@@ -1,0 +1,14 @@
+{
+  "name": "stack",
+  "version": "0.0.1",
+  "description": "A stack utility written in javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stack"
+  ],
+  "author": "MichaelHu",
+  "license": "ISC"
+}
