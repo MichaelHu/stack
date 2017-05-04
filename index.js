@@ -1,2 +1,2 @@
-import Stack from './stack';
+import Stack from './src/stack';
 export default Stack;

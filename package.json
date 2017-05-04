@@ -4,11 +4,18 @@
   "description": "A stack utility written in javascript.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "cd script && sh build.sh",
+    "test": "npm run build && ./node_modules/.bin/mocha --recursive test"
   },
   "keywords": [
     "stack"
   ],
   "author": "MichaelHu",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  }
 }
